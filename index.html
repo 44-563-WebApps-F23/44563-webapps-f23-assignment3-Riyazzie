@@ -26,5 +26,54 @@
     <li> Lobster </li>
 </ul>
  <a href="mystats.html">My Stats</a>
+ <hr>
+ <h2>Table</h2>
+ <p>In this section, we will explore four sports that I recommend trying for various reasons. 
+    Each sport offers unique benefits and experiences, and the table below provides information of those.
+    I believe that staying active through sports is a great way to maintain a healthy lifestyle.</p>
+ <table border="1">
+   <tr>
+       <th>sports name</th>
+       <th>Reason</th>
+       <th>Hours</th>
+   </tr>
+
+   <tr>
+    <td>Tennis</td>
+       <td>it provides agility and fitness </td>
+       <td>3-4 hours</td>
+   </tr>
+   <tr>
+    <td>Hiking</td>
+    <td>reduce stress and make people healthy </td>
+    <td>4-5 hours</td>
+   </tr>
+   <tr>
+    <td>Swimming</td>
+    <td>used to reduce weight </td>
+    <td>1-2 hours</td>
+   </tr>
+   <tr>
+    <td>Yoga</td>
+    <td>body flexibility and mental peacet </td>
+    <td>1-2 hours</td>
+   </tr>
+ </table>
+ <hr>
+
+ <blockquote>How to make a simple auto playing slide show with javascript?</blockquote>
+ <a href="https://stackoverflow.com/questions/21222360/how-to-make-a-simple-auto-playing-slide-show-with-javascript">stackoverflow</a>
+ <pre>
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow > div:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#slideshow');
+    }, 3000);
+ </pre>
 </body>
 </html>
